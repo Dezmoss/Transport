@@ -1,0 +1,27 @@
+.btn {
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background-color: $main-color;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    &:hover {
+        border: none;
+    }
+
+    &__recieve {
+        display: block;
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        width: 230px;
+        height: 57px;
+        margin: 0 auto;
+        margin-top: 39px;
+    }
+}
